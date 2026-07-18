@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 # 1. LOAD DATA
 # ==========================================================
 
-FILE_PATH = "Transaksi_Penjualan_HP_DataSet.xlsx"
+FILE_PATH = "transaksi.xlsx"
 
 if not Path(FILE_PATH).exists():
     raise FileNotFoundError(f"File '{FILE_PATH}' tidak ditemukan.")
